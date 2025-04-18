@@ -12,7 +12,7 @@ const DiceRoller = () => {
 
   return (
     <div>
-      <h2>🎲 Dice Roller</h2>
+      <h2>Dice Roller</h2>
       <button onClick={rollDice}>Roll the Dice</button>
       {diceNumber && <h3>You rolled: {diceNumber}</h3>}
       <p>Last 5 Rolls:</p>
