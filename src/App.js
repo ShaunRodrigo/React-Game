@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>React SPA with Menus</h1>
+      <h1>React</h1>
       <div className="menu">
         <button onClick={() => setActiveApp('rps')}>Rock Paper Scissors</button>
         <button onClick={() => setActiveApp('dice')}>Dice Roller</button>
